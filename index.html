@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <h1>PERSONAL INFORMATION</h1>
+</head>
+<body>
+    <form  action="https://google.com" method="post">
+         <p>
+        Name:
+        <input type="text">
+    </p>
+    <p>
+        Father Name:
+        <input type="text">
+    </p>
+    <p>
+        Mother Name:
+        <input type="" placeholder="optional">
+    </p>
+    <p>
+        Last Qualification
+        <select>
+            <option disabled  value="0">select </option> 
+            <option selected value="1">HSC</option>
+            <option  value="2">O levels/A levels</option>
+            <option value="3">Bachelors</option>
+            <option value="4">Fa</option>
+            <option value="5">Matriculation</option>
+         </select><br
+    </p>
+    <p>
+        <input type="date" />
+    </p>
+    <p>Select Your Gender:</p>
+    Male<input type="radio" name="genre" value="rock">
+    <br>
+    Female <input type="radio" name="genre" value="rock">
+    <p>
+        Cell No:
+        <input type="text" placeholder="type your number" maxlength="11">
+    </p>
+    <p>
+        Email:
+        <input type="" placeholder="Your Email">
+    </p>
+    <p>
+        Password:
+        <input type="text" required placeholder="type your Password">
+    </p>
+    <p>
+        Hafiz e Quran:
+         <label for="yes">yes</label>
+        <input name="yes" type="radio" id="yes" />
+        <label for="no">no</label>
+        <input name="yes" type="radio" id="no" checked/>
+    </p>
+    <p> Select Your Favourite Subjects:<br>
+        <label aria-multiselectable="true" for="eng">English</label>
+        <input type="checkbox" id="English"/><br>
+        <label for="ur">Urdu</label>
+        <input type="checkbox" id="Urdu"/><br>
+        <label for="Math">Mathematics</label>
+        <input type="checkbox" id="Mathematics"/><br>
+        <label for="Eco">Economics</label>
+        <input type="checkbox" id="Economics"/><br>
+    </p>
+    <p> Your City
+    <select>
+        <option disabled  value="0">select your city </option> 
+        <option selected value="1">Karachi</option>
+        <option  value="2">Islamabad</option>
+        <option value="3">Lahore</option>
+        <option value="4">Quetta</option>
+        <option value="5">Multan</option>
+        <option value="6">Peshawar</option>
+     </select><br></p>
+     <p>Choose Your Favourite Cricketer
+     <select  multiple>
+       <option value="Virat">Virat Kohli</option>
+       <option value="Babar">Babar Azam</option>
+       <option value="Kane">Kane Williamson</option>
+       <option value="Steve">Steven Smith</option>
+     </select>
+     <p>Upload Your Picture <br>
+     <textarea name="" id="" rows="20" cols="10"></textarea>
+   <input type="file" name="Image" accept="img/jpg" />
+     </p>
+   <button>Submit</button>
+    </form>
+    
+</body>
+</html>
